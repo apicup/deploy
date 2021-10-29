@@ -1,0 +1,6 @@
+#!/bin/bash
+LIST=$1
+if [[ $LIST = "" ]] LIST="deploy.txt"
+echo "Deploy list is loaded from FILE: $LIST : "
+cat $LIST
+echo
